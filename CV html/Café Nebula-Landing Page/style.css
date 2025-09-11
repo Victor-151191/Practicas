@@ -3,6 +3,7 @@ margin: 0;
 font-family: 'Roboto', sans-serif;
 background: linear-gradient(to bottom, #1e1e2f, #2c2c3e);
 color: #fff;
+text-align: center;
 }
 
 header {
@@ -83,4 +84,5 @@ footer {
 text-align: center;
 padding: 20px;
 background-color: #1a1a2e;
+
 }
