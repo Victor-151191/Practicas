@@ -1,6 +1,6 @@
-const formulario = document.querySelector(".form");
+const formulario = document.querySelector("form");
 formulario.addEventListener("submit", function(event) {
   event.preventDefault();
   
-  alert("F");
+  alert("¡Bienvenido a la constelación, viajero!");
 });
