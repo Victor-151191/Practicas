@@ -1,0 +1,148 @@
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+background-color: #f0f2f5;
+color: #333;
+transition: background-color 0.3s ease;
+}
+
+header {
+background-color: #1f2937;
+color: white;
+padding: 30px 0;
+text-align: center;
+position: relative;
+}
+
+.perfil {
+width: 120px;
+height: 120px;
+border-radius: 50%;
+object-fit: cover;
+border: 3px solid white;
+margin-bottom: 10px;
+animation: fadeIn 1s ease-in-out;
+}
+
+.container {
+width: 90%;
+max-width: 800px;
+margin: auto;
+}
+
+main section {
+background-color: white;
+padding: 20px;
+margin: 20px 0;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+animation: fadeInUp 0.5s ease;
+}
+
+h2 {
+color: #007acc;
+margin-bottom: 10px;
+}
+
+ul {
+list-style-type: square;
+padding-left: 20px;
+}
+
+a {
+color: #007acc;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.btn {
+display: inline-block;
+margin-top: 10px;
+background-color: #007acc;
+color: white;
+padding: 10px 15px;
+border-radius: 5px;
+text-decoration: none;
+transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+background-color: #005f99;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+form input, form textarea {
+margin-bottom: 10px;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+form button {
+background-color: #007acc;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+form button:hover {
+background-color: #005f99;
+}
+
+footer {
+background-color: #1f2937;
+color: white;
+text-align: center;
+padding: 15px 0;
+font-size: 0.9em;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+from { opacity: 0; transform: scale(0.9); }
+to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeInUp {
+from { opacity: 0; transform: translateY(20px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+/*ESTILO DE CONTACTO*/
+
+form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-top: 20px;
+}
+
+form input, form textarea {
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ccc;
+font-size: 1rem;
+}
+
+form button {
+background-color: #007acc;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+}
+
+form button:hover {
+background-color: #005f99;
+}
